@@ -1,0 +1,654 @@
+body {
+  margin: 0;
+}
+/* 1st section-navbar */
+.nav-bar {
+  padding: 10px 0;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  font-family: sans-serif;
+  background-color: #333;
+  top: 0;
+  position: fixed;
+  text-align: center;
+  height: 40px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  background-color: #333;
+}
+.nav-list a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.apple-intelligence {
+  background: linear-gradient(
+    94deg,
+    #58cdff,
+    #229bff,
+    #df62db,
+    #fb6159,
+    #ffa109
+  );
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  text-align: center;
+  margin-top: -21px;
+}
+
+.header-text h1 {
+  padding-top: 25px;
+  margin-bottom: -15px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.header-text p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.imac {
+  background: linear-gradient(
+    94deg,
+    #58cdff,
+    #229bff,
+    #df62db,
+    #fb6159,
+    #ffa109
+  );
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  text-align: center;
+}
+.imac-text {
+  margin-top: 100px;
+}
+.imac-text h1 {
+  font-size: 48px;
+  margin-bottom: -30px;
+}
+.imac-text h2 {
+  font-size: 32px;
+  font-weight: light;
+  margin-bottom: -20px;
+}
+.imac-text p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+#imac-img {
+  width: 453px;
+  /* height: auto; */
+}
+.btn-container-imac {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.button-imac {
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  padding: 12px 15px;
+  background-color: #0077ed;
+  cursor: pointer;
+  color: white;
+}
+.button-buy-imac {
+  border: 1px solid #2997ff;
+  border-radius: 25px;
+  font-size: 1rem;
+  padding: 12px 15px;
+  font-family: Helvetica;
+  background: none;
+  color: white;
+}
+.button-buy-imac:hover {
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+
+/* B section */
+.iphone16 {
+  margin-top: -30px;
+  background: white;
+  border-bottom: 30px solid white;
+  background-image: url("https://www.apple.com/v/home/bu/images/heroes/iphone-16/hero_iphone16_avail__euwzls69btea_medium.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.iphone16 h1 {
+  font-size: 48px;
+  margin-bottom: -20px;
+  color: white;
+  font-weight: 600;
+}
+.txt16 {
+  padding-top: 25px;
+}
+.iphone16 p {
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+/* B button */
+.btn-container16 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button1 {
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  padding: 11px 21px;
+  background-color: white;
+  color: black;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+.button-buy1 {
+  border: 1px solid white;
+  border-radius: 25px;
+  font-size: 1rem;
+  padding: 12px 15px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.button-buy1:hover {
+  background-color: white;
+  color: black;
+}
+#Iphone-16-img {
+  background: rgb(0, 0, 0);
+  width: 50%;
+  height: auto;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel {
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+.slides {
+  padding-left: 5px;
+  transition: transform 5s ease-in-out;
+}
+.slider-img {
+  max-height: 25vh;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.slides p {
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.slide-button {
+  display: flex;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 25px;
+  border: none;
+  background: #0077ed;
+  padding: 10px 10px;
+  font-size: 0.8rem;
+  color: white;
+  cursor: pointer;
+}
+.slides a {
+  text-decoration: none;
+}
+
+/* C SECTION */
+.Apple-watch {
+  border-bottom: 10px solid white;
+  background-color: #000;
+  margin-top: -20px;
+}
+.Apple-watch-txt {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin-bottom: -10px;
+}
+.Apple-watch-txt2 {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin-bottom: -10px;
+  margin-top: none;
+}
+.Apple-watch-txt3 {
+  background-color: white;
+  color: black;
+  /* font-weight: bold; */
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
+#apple-watch-img {
+  background: rgb(0, 0, 0);
+  width: 1000px;
+  height: auto;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* C BUTTON */
+.btn-container-watch {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom:35px;
+}
+.button2 {
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  padding: 12px 15px;
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+.button-buy2 {
+  border: 1px solid #2997ff;
+  border-radius: 25px;
+  font-size: 17px;
+  padding: 12px 15px;
+  background-color: #000;
+  color: #2997ff;
+  cursor: pointer;
+}
+.button-buy2:hover {
+  background-color: #0077ed;
+  color: white;
+}
+.text-overlay {
+  text-align: center;
+  background: white;
+  display: absolute;
+}
+
+/* CONTAINER FOR SIDE SECTIONS */
+.container {
+  display: flex;
+}
+.section {
+  border: 3px solid transparent;
+  justify-content: center;
+  gap: 70px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.section img {
+  max-width: 100vh;
+}
+/* D SECTION */
+.airpod-4-txt {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  bottom: 20px;
+  margin-bottom: -20px;
+}
+.airpod-4-txt2 {
+  font-size: 19px;
+  font-family: sans-serif;
+  color: black;
+  margin-bottom: -25px;
+  font-weight: bold;
+}
+.airpod-4-txt3 {
+  font-size: 19px;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+/* D Button */
+.btn-container-airpod4 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button3 {
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 14px;
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+.button-buy3 {
+  border: 1px solid #2997ff;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 14px;
+  background-color: white;
+  color: #2997ff;
+  cursor: pointer;
+}
+.button-buy3:hover {
+  background-color: #0077ed;
+  color: white;
+}
+/* E Section */
+#airpod-2 {
+  display: grid;
+  width: 70%;
+  height: auto;
+  align-items: center;
+}
+#airpod-2 {
+  text-align: center;
+  background: white;
+}
+#airpod-2 h2 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  bottom: 20px;
+  margin-bottom: -20px;
+}
+#airpod-2 p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+}
+/* E Button */
+.btn-container-airpod2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 100px;
+}
+.button4 {
+  font-size: 15px;
+  padding: 12px 14px;
+  border-radius: 25px;
+  background-color: #0077ed;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.button-buy4 {
+  border: 1px solid #2997ff;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 12px 15px;
+  background-color: white;
+  color: #2997ff;
+  cursor: pointer;
+}
+.button-buy4:hover {
+  background-color: #0077ed;
+  color: white;
+}
+/* F SECTION */
+.mac-header {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: -15px;
+}
+.mac-p {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}
+/* F BUTTON */
+.btn-container-mac {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button5 {
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 14px;
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+.button-buy5 {
+  border: 1px solid #0077ed;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 14px;
+  background-color: white;
+  color: #0077ed;
+  cursor: pointer;
+}
+.button-buy5:hover {
+  background-color: #0077ed;
+  color: white;
+}
+.macbook-air {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.Ipad-text {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.Ipad-text h1 {
+  font-size: 30px;
+  margin-bottom: -15px;
+}
+.Ipad-text p {
+  font-size: 22px;
+}
+.btn-container-ipad {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button6 {
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 14px;
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+.button-buy6 {
+  border: 1px solid #0077ed;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 14px;
+  background-color: white;
+  color: #0077ed;
+  cursor: pointer;
+}
+.button-buy6:hover {
+  background-color: #0077ed;
+  color: white;
+}
+.ipad-img {
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.border-between {
+  height: 50px;
+  background-color: white;
+  margin: 3px 0;
+}
+.border {
+  height: 5px;
+  background-color: black;
+  margin: 2px 0;
+  opacity: 0.8;
+}
+.Trade-In {
+  text-align: center;
+  font-family: sans-serif;
+}
+.Trade-In h1 {
+  font-size: 30px;
+  margin-bottom: -18px;
+}
+.Trade-In p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-container-trade {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button7 {
+  border: none;
+  border-radius: 25px;
+  font-size: 17px;
+  padding: 12px 15px;
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+.trade-in-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.card-text {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card-text h1 {
+  font-size: 30px;
+  margin-bottom: -15px;
+  font-weight: bolder;
+}
+.card-text p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-container-card {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.button8 {
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 14px;
+  background-color: #0077ed;
+  color: white;
+  cursor: pointer;
+}
+.button-buy8 {
+  border: 1px solid #0077ed;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 11px 14px;
+  background-color: white;
+  color: #0077ed;
+  cursor: pointer;
+}
+.button-buy8:hover {
+  color: white;
+  background-color: #0077ed;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.disclaimer {
+  opacity: 0.8;
+  font-size: 14px;
+  color: #333;
+  background: rgb(245, 245, 247);
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  padding-top: 60px;
+}
+.disclaimer-div{
+  margin-left: 70px;
+    margin-right: 70px;
+}
+.section h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: -0.8px;
+  color: #333;
+  opacity: 0.8;
+}
+
+.carousel-container {
+  overflow: hidden;
+}
+.slide-img {
+  max-height: 25vh;
+}
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 50s linear infinite;
+}
+.carousel-item {
+  padding-left: 5px;
+  transition: transform 1s ease-in-out;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
