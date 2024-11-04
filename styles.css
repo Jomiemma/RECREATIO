@@ -30,6 +30,7 @@ body {
   background-color: #333;
 }
 .nav-list a:hover {
+  color: #0077ed;
   text-decoration: none;
 }
 .apple-intelligence {
