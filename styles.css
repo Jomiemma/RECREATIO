@@ -10,6 +10,9 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  padding-top: 10px;
+  padding-bottom: -10px;
+  margin-right: -10px;
   width: 100%;
   height: auto;
   font-family: sans-serif;
@@ -18,15 +21,15 @@ body {
   position: fixed;
   text-align: center;
   height: 40px;
+  font-weight: 100;
 }
 .nav-list a {
   text-decoration: none;
-  color: #000;
+  color: white;
   font-size: 18px;
   background-color: #333;
 }
 .nav-list a:hover {
-  color: whitesmoke;
   text-decoration: none;
 }
 .apple-intelligence {
@@ -215,7 +218,7 @@ body {
 }
 .slide-button {
   display: flex;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   border-radius: 25px;
@@ -275,7 +278,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom:35px;
+  margin-bottom: 35px;
 }
 .button2 {
   border: none;
@@ -616,9 +619,9 @@ body {
   margin-right: 50px; */
   padding-top: 60px;
 }
-.disclaimer-div{
+.disclaimer-div {
   margin-left: 70px;
-    margin-right: 70px;
+  margin-right: 70px;
 }
 .section h3 {
   font-size: 18px;
